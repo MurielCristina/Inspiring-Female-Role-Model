@@ -4,22 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Britney Spears: A True Inspiration</title>
-    <style></style>
+    <style>
+      header {
+        background-color: #800080;
+        display: flex;
+        height: 60px;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin: 0;
+      }
+      .navigation_bar_item {
+        color: white;
+        text-decoration: none;
+      }
+      .navigation_bar_item:hover {
+        color: #f08080;
+      }
+      .home h1 {
+        font-size: 36px;
+        color: #800080;
+      }
+      .home h2 {
+        font-size: 24px;
+        color: #ffc0cb;
+      }
+      .home p {
+        font-size: 18px;
+        color: #800080;
+      }
+      .home img {
+        width: 100%;
+        border: #f08080;
+      }
+      .home {
+        padding: 50px;
+        margin: 0 auto;
+        background-color: #e6e6fa;
+      }
+      .about_britney {
+        background-color: #ffc0cb;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <section class="navigation_bar">
+      <section>
         <div>
-          <a href="#home" class=""> Home</a>
-          <a href="#about_britney" class="">About Britney</a>
-          <a href="#achivements" class=""> Achievements</a>
-          <a href="#fan_stories" class="">Fan Stories</a>
-          <a href="#contact" class="">Contact</a>
+          <a href="#home" class="navigation_bar_item"> Home</a>
+          <a href="#about_britney" class="navigation_bar_item">About Britney</a>
+          <a href="#achivements" class="navigation_bar_item"> Achievements</a>
+          <a href="#fan_stories" class="navigation_bar_item">Fan Stories</a>
+          <a href="#contact" class="navigation_bar_item">Contact</a>
         </div>
       </section>
     </header>
     <main>
-      <section id="home">
+      <section id="home" class="home">
         <div class="header_section">
           <h1>Britney Spears: A True Inspiration</h1>
           <h2>
@@ -38,7 +78,7 @@
           </p>
         </div>
       </section>
-      <section id="about_britney">
+      <section id="about_britney" class="about_britney">
         <div class="inspirational_journey_section">
           <video src="" control></video>
           <h3>Britney's Unforgettable Journey</h3>
