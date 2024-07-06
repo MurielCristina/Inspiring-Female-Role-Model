@@ -5,14 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Britney Spears: A True Inspiration</title>
     <style>
+      .top_navigation_bar {
+        display: flex;
+        justify-content: space-around;
+        background-color: #800080;
+        height: 60px;
+        width: 100%;
+        margin-top: auto;
+        margin-right: 5px;
+      }
+      .top_navigation_bar_element {
+        color: white;
+        font-size: 18px;
+        padding: 15px 30px;
+        text-decoration: none;
+        text-align: center;
+      }
+
+      .top_navigation_bar_element:hover {
+        color: #f08080;
+        font-size: 19px;
+      }
+
+      h1 {
+        margin-top: 60px;
+      }
+
       h1,
       h2 {
         text-align: center;
       }
-      .top_navigation_bar {
-        display: flex;
-        justify-content: space-around;
-      }
+
       .fan_story {
         display: flex;
         justify-content: space-around;
@@ -29,22 +52,32 @@
         <!--
         PENDIENTE: 
         -a hero image of Britney Spears
-        -Navigation Link: Home
         -->
         <div class="top_navigation_bar">
-          <p>Home</p>
-          <!-- Takes the visitor to the top of the page. -->
-          <p>About Britney</p>
-          <!-- Scrolls to the Inspirational Journey section. -->
-          <p>Achievements</p>
-          <!-- Scrolls to the Achievements section. -->
-          <p>Fan Stories</p>
-          <!-- Scrolls to the Fan Stories section. -->
-          <p>Contact</p>
+          <a
+            href="#top_navigation_bar_element"
+            class="top_navigation_bar_element"
+          >
+            Home</a
+          >
+          <a href="#inspitational_journey" class="top_navigation_bar_element"
+            >About Britney</a
+          >
+          <a href="#achievements" class="top_navigation_bar_element">
+            Achievements</a
+          >
+          <a href="#fan_story" class="top_navigation_bar_element"
+            >Fan Stories</a
+          >
+          <a href="#footer" class="top_navigation_bar_element">Contact</a>
           <!-- Scrolls to the Footer section. -->
         </div>
-        <h1>Britney Spears: A True Inspiration</h1>
-        <h2>Celebrating the Strength, Resilience, and Impact of a Pop Icon</h2>
+        <div id="top_navigation_bar_element">
+          <h1>Britney Spears: A True Inspiration</h1>
+          <h2>
+            Celebrating the Strength, Resilience, and Impact of a Pop Icon
+          </h2>
+        </div>
       </section>
     </header>
     <main>
@@ -62,7 +95,7 @@
           around the world.
         </p>
       </section>
-      <section class="inspirational_journey">
+      <section id="inspitational_journey" class="inspirational_journey">
         <!--
         PENDIENTE: 
         -Content: A video about Britney's journey and impact.
@@ -83,7 +116,7 @@
         </p>
       </section>
 
-      <section class="achievements">
+      <section class="achievements" id="achievements">
         <h3>Celebrating Achievements</h3>
         <ul>
           <li>
@@ -130,7 +163,7 @@
           her incredible spirit.
         </p>
       </section>
-      <section class="fan_stories">
+      <section class="fan_stories" id="fan_story">
         <!--
         PENDIENTE: 
         -Content: Stories from fans about how Britney has impacted their lives.
@@ -180,7 +213,7 @@
       </section>
     </main>
     <footer>
-      <section class="page_footer">
+      <section class="page_footer" id="footer">
         <!--
         PENDIENTE: 
         -Content: Social media links and additional resources.
