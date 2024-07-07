@@ -100,11 +100,20 @@ ul.no_bullets {
   aspect-ratio: 16 / 9;
 }
 .milestones_gallery_pic:hover {
-  transform: scale(3);
+  transform: scale(2.5);
 }
 video {
   border: #f08080;
   width: 100%;
+}
+.links {
+  text-decoration: none;
+  color: #f08080;
+  font-weight: bold;
+}
+.links:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 .achivements {
   padding: 50px;
@@ -121,6 +130,9 @@ video {
   margin: 10px 0;
   color: #e6e6fa;
 }
+.achivements .links {
+  color: #ffc0cb;
+}
 .personal_impact_section {
   background-color: #e6e6fa;
   color: #800080;
@@ -134,6 +146,9 @@ video {
   font-size: 32px;
   text-align: center;
   text-decoration: underline;
+}
+.personal_impact_section img {
+  max-width: 50%;
 }
 .fan_stories_section {
   font-size: 18px;
