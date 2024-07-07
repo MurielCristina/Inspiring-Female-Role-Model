@@ -47,15 +47,15 @@
         margin: 0 auto;
       }
       .about_britney h3,
-      p,
-      h4,
-      ul {
+      .about_britney p,
+      .about_britney h4,
+      .about_britney ul {
         color: #800080;
         font-size: 32px;
       }
       .about_britney p,
-      ul,
-      h4 {
+      .about_britney ul,
+      .about_britney h4 {
         font-size: 18px;
       }
       video {
@@ -76,6 +76,64 @@
       .achivements ul {
         margin: 10px 0;
         color: #e6e6fa;
+      }
+      .personal_impact_section {
+        background-color: #e6e6fa;
+        color: #800080;
+        padding: 50px;
+        margin: 0 auto;
+        font-size: 18px;
+      }
+      .personal_impact_section h3 {
+        font-size: 32px;
+      }
+      .fan_stories_section {
+        font-size: 18px;
+        padding: 50px;
+        margin: 0 auto;
+        background-color: #ffc0cb;
+        color: #800080;
+      }
+      .fan_stories_section h3 {
+        font-size: 32px;
+      }
+      .thre_fan_stories {
+        display: flex;
+        margin: 15px 0;
+        text-align: center;
+        font-size: 20px;
+        color: #f08080;
+        background-color: #800080;
+        opacity: 60%;
+      }
+      .call_to_action_section {
+        font-size: 20px;
+        padding: 50px;
+        margin: 0 auto;
+        background-color: #f08080;
+        color: white;
+      }
+      button {
+        font-size: 18px;
+        padding: 15px 30px;
+        margin: 20px 0;
+        background-color: #800080;
+        color: white;
+      }
+      button:hover {
+        color: #ffc0cb;
+      }
+      .contact {
+        padding: 20px;
+        margin: 0 auto;
+      }
+      .contact a {
+        font-size: 18px;
+        margin: 0 15px;
+        display: flex;
+      }
+      .contact_element {
+        position: relative;
       }
     </style>
   </head>
@@ -218,22 +276,22 @@
             heartfelt stories from fans around the world who have been touched
             by her strength and determination.
           </p>
-          <ul>
-            <li>
+          <div class="thre_fan_stories">
+            <p>
               "Britney's music helped me through some of the toughest times in
               my life. Her songs gave me the strength to keep going when I felt
               like giving up."
-            </li>
-            <li>
+            </p>
+            <p>
               "Watching Britney fight for her freedom was incredibly inspiring.
               It showed me that it's never too late to stand up for yourself and
               demand the respect you deserve."
-            </li>
-            <li>
+            </p>
+            <p>
               "Britney's openness about her mental health struggles gave me the
               courage to seek help for my own issues. She's a true role model."
-            </li>
-          </ul>
+            </p>
+          </div>
         </div>
         <div class="call_to_action_section">
           <p>
@@ -245,8 +303,8 @@
         </div>
       </section>
       <section id="contact">
-        <div>
-          <span>
+        <div class="contact">
+          <span class="contact_element">
             <img src="" alt="twitter logo" />
             <a href="#">Twitter</a>
           </span>
