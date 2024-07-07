@@ -9,453 +9,262 @@
       rel="stylesheet"
     />
 
-    <style>
-      body {
-        font-family: "Open Sans", sans-serif;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Lora", serif;
-        color: #800080; /* Deep Purple */
-      }
-
-      p,
-      ul,
-      li,
-      button,
-      a {
-        font-family: "Open Sans", sans-serif;
-        color: #800080; /* Deep Purple */
-      }
-      header {
-        background-color: #800080;
-        display: flex;
-        height: 60px;
-        font-size: 18px;
-        padding: 15px 30px;
-        margin: 0;
-      }
-      .navigation_bar_item {
-        color: white;
-        text-decoration: none;
-      }
-      .navigation_bar_item:hover {
-        color: #f08080;
-      }
-      .home h1 {
-        font-size: 36px;
-        color: #800080;
-      }
-      .home h2 {
-        font-size: 24px;
-        color: #ffc0cb;
-      }
-      .home p {
-        font-size: 18px;
-        color: #800080;
-      }
-      .home img {
-        width: 100%;
-        border: #f08080;
-      }
-      .home {
-        padding: 50px;
-        margin: 0 auto;
-        background-color: #e6e6fa;
-      }
-      .about_britney {
-        background-color: #ffc0cb;
-        padding: 50px;
-        margin: 0 auto;
-      }
-      .about_britney h3,
-      .about_britney p,
-      .about_britney h4,
-      .about_britney ul {
-        color: #800080;
-        font-size: 32px;
-      }
-      .about_britney p,
-      .about_britney ul,
-      .about_britney h4 {
-        font-size: 18px;
-      }
-
-      .milestones_gallery {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        margin: 5px 80px;
-      }
-      .milestones_gallery_pic {
-        object-fit: cover;
-        aspect-ratio: 16 / 9;
-      }
-      .milestones_gallery_pic:hover {
-        transform: scale(1.5);
-      }
-      video {
-        border: #f08080;
-        width: 100%;
-      }
-      .achivements {
-        padding: 50px;
-        margin: 0 auto;
-        font-size: 18px;
-        background-color: #f08080;
-        color: #ffffff;
-      }
-      .achivements h3 {
-        font-size: 32px;
-        color: #800080;
-      }
-      .achivements ul {
-        margin: 10px 0;
-        color: #e6e6fa;
-      }
-      .personal_impact_section {
-        background-color: #e6e6fa;
-        color: #800080;
-        padding: 50px;
-        margin: 0 auto;
-        font-size: 18px;
-      }
-      .personal_impact_section h3 {
-        font-size: 32px;
-      }
-      .fan_stories_section {
-        font-size: 18px;
-        padding: 50px;
-        margin: 0 auto;
-        background-color: #ffc0cb;
-        color: #800080;
-      }
-      .fan_stories_section h3 {
-        font-size: 32px;
-      }
-      .thre_fan_stories {
-        display: flex;
-        margin: 15px 0;
-        text-align: center;
-        font-size: 20px;
-        color: #f08080;
-        background-color: #800080;
-        opacity: 60%;
-      }
-      .call_to_action_section {
-        font-size: 20px;
-        padding: 50px;
-        margin: 0 auto;
-        background-color: #f08080;
-        color: white;
-      }
-      button {
-        font-size: 18px;
-        padding: 15px 30px;
-        margin: 20px 0;
-        background-color: #800080;
-        color: white;
-      }
-      button:hover {
-        color: #ffc0cb;
-      }
-      .contact {
-        padding: 20px;
-        margin: 0 auto;
-      }
-      .contact a {
-        font-size: 18px;
-        margin: 0 15px;
-        display: flex;
-      }
-      .personal_footer {
-        text-align: center;
-      }
-      img {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        border: 2px solid #f08080;
-        padding: 5px;
-        border-radius: 12px;
-      }
-      video {
-        width: 100%;
-        max-width: 600px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        border: 2px solid #f08080;
-      }
-      .quotes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        margin: 5px 40px;
-      }
-      .quotes_box {
-        border: 2px solid white;
-        border-radius: 12px;
-        text-align: center;
-        padding: 5px;
-        font-size: 16px;
-      }
-    </style>
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <section>
-        <div>
-          <a href="#home" class="navigation_bar_item"> Home</a>
-          <a href="#about_britney" class="navigation_bar_item">About Britney</a>
-          <a href="#achivements" class="navigation_bar_item"> Achievements</a>
-          <a href="#fan_stories" class="navigation_bar_item">Fan Stories</a>
-          <a href="#contact" class="navigation_bar_item">Contact</a>
-          <audio preload="auto" autoplay>
-            <source
-              src="pictures and videos/Britney Spears - Gimme More (Official HD Video).mp3"
-              type="audio/mp3"
-            />
-            <p>
-              Your browser doesn't support this audio file. Here is a
-              <a href="https://youtu.be/elueA2rofoo?si=CkRUWf9AyPmEQjUC"
-                >link to the audio</a
-              >
-              instead.
-            </p>
-          </audio>
-        </div>
-      </section>
-    </header>
-    <main>
-      <section id="home" class="home">
-        <div class="header_section">
-          <h1>Britney Spears: A True Inspiration</h1>
-          <h2>
-            Celebrating the Strength, Resilience, and Impact of a Pop Icon
-          </h2>
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/016/original/Britney_Spears_picture.png?1720348386"
-            alt="Britney Spears picture"
-          />
-        </div>
-        <div class="hero_section">
-          <img
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/019/original/Britney_Spears_smiling_on_stage.jpg?1720348753"
-            alt="Britney Spears smiling on stage"
-          />
-          <p>
-            Britney Spears, the Princess of Pop, is more than just a music icon.
-            She embodies resilience, strength, and inspiration. Her journey
-            through the highs and lows of fame, personal struggles, and
-            triumphant comebacks makes her a beacon of hope and empowerment for
-            millions around the world.
-          </p>
-        </div>
-      </section>
-      <section id="about_britney" class="about_britney">
-        <div class="inspirational_journey_section">
-          <video controls src="#"></video>
-          <h3>Britney's Unforgettable Journey</h3>
-          <p>
-            Britney Spears burst onto the music scene in the late 90s,
-            captivating the world with her incredible talent and charismatic
-            presence. Her debut album, "…Baby One More Time," became a cultural
-            phenomenon, solidifying her status as a global superstar. Despite
-            facing intense media scrutiny and personal challenges, Britney's
-            spirit never wavered. She fought tirelessly for her freedom and
-            mental health, becoming a powerful advocate for others facing
-            similar struggles. Today, Britney stands as a symbol of perseverance
-            and self-empowerment.
-          </p>
-        </div>
-        <div class="timeline_section">
-          <h3>Milestones in Britney’s Life</h3>
-          <h4>Timeline Items:</h4>
-          <ul>
-            <li>
-              <strong>1998 </strong>Released debut single "...Baby One More
-              Time."
-            </li>
-            <li><strong>1999 </strong>Debut album tops charts worldwide.</li>
-            <li>
-              <strong>2001 </strong>Releases hit album "Britney" and performs
-              iconic VMA performance with a python.
-            </li>
-            <li><strong>2008 </strong>Wins Grammy for "Piece of Me."</li>
-            <li>
-              <strong>2013 </strong>Launches successful Las Vegas residency.
-            </li>
-            <li>
-              <strong>2021 </strong>Wins legal battle for conservatorship.
-            </li>
-          </ul>
-          <div class="milestones_gallery">
+    <div class="container">
+      <header>
+        <section>
+          <div>
+            <a href="#home" class="navigation_bar_item"> Home</a>
+            <a href="#about_britney" class="navigation_bar_item"
+              >About Britney</a
+            >
+            <a href="#achivements" class="navigation_bar_item"> Achievements</a>
+            <a href="#fan_stories" class="navigation_bar_item">Fan Stories</a>
+            <a href="#contact" class="navigation_bar_item">Contact</a>
+            <audio preload="auto" autoplay>
+              <source
+                src="pictures and videos/Britney Spears - Gimme More (Official HD Video).mp3"
+                type="audio/mp3"
+              />
+              <p>
+                Your browser doesn't support this audio file. Here is a
+                <a href="https://youtu.be/elueA2rofoo?si=CkRUWf9AyPmEQjUC"
+                  >link to the audio</a
+                >
+                instead.
+              </p>
+            </audio>
+          </div>
+        </section>
+      </header>
+      <main>
+        <section id="home" class="home">
+          <div class="header_section">
+            <h1>Britney Spears: A True Inspiration</h1>
+            <h2>
+              Celebrating the Strength, Resilience, and Impact of a Pop Icon
+            </h2>
             <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/035/original/1998_Released_debut_single_%22...Baby_One_More_Time.%22_.jpg?1720353379"
-              alt="Baby One More Time"
-              class="milestones_gallery_pic"
-            />
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/036/original/1999_Debut_album_tops_charts_worldwide._.jpeg?1720353488"
-              alt="Debut album tops charts worldwide"
-              class="milestones_gallery_pic"
-            />
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/037/original/VMA_performance_with_a_python._.jpeg?1720353618"
-              alt="VMA performance with a python."
-              class="milestones_gallery_pic"
-            />
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/038/original/2008_Wins_Grammy_for_%22Piece_of_Me.%22.jpeg?1720353870"
-              alt="Piece of Me"
-              class="milestones_gallery_pic"
-            />
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/041/original/2013_Launches_successful_Las_Vegas_residency._.jpeg?1720354180"
-              alt=" Las Vegas residency"
-              class="milestones_gallery_pic"
-            />
-            <img
-              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/040/original/2021_Wins_legal_battle_for_conservatorship._.jpeg?1720354054"
-              alt="conservatorship"
-              class="milestones_gallery_pic"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/016/original/Britney_Spears_picture.png?1720348386"
+              alt="Britney Spears picture"
             />
           </div>
-        </div>
-      </section>
-      <section id="achivements" class="achivements">
-        <div class="achivements_section">
-          <h3>Celebrating Achievements</h3>
-          <h4>Achievements List:</h4>
-          <ul>
-            <li>
-              Grammy Award-Winner: Britney has won numerous awards, including a
-              Grammy for Best Dance Recording.
-            </li>
-            <li>
-              Record-Breaking Albums: Over 100 million records sold worldwide,
-              making her one of the best-selling music artists of all time.
-            </li>
-            <li>
-              Iconic Performances: From the MTV Video Music Awards to her Las
-              Vegas residency, Britney's performances have left an indelible
-              mark on pop culture.
-            </li>
-            <li>
-              Advocate for Mental Health: Britney's openness about her mental
-              health journey has inspired countless others to seek help and
-              speak out.
-            </li>
-          </ul>
-        </div>
-        <div class="personal_impact_section">
-          <h3>Why Britney Inspires Me</h3>
-          <p>
-            Britney Spears has always been a source of inspiration for me. Her
-            music has provided the soundtrack to many of my life’s moments, and
-            her story of resilience resonates deeply with me. Despite facing
-            unimaginable pressures and setbacks, Britney's unwavering
-            determination to reclaim her life and happiness teaches us all the
-            importance of self-love, strength, and perseverance. Her ability to
-            rise above adversity and continue to shine brightly is a testament
-            to her incredible spirit.
-          </p>
-        </div>
-        <div class="quotes_section">
-          <h3>Words That Inspire</h3>
-          <h4>Quotes</h4>
-          <div class="quotes">
-            <div class="quotes_box">
-              <strong>Britney on Perseverance</strong><br />
-              "I've been through a lot and I recognize that my challenges are
-              just as important as my successes. They make me who I am."
-            </div>
-            <div class="quotes_box">
-              <strong> Britney on Self-Love</strong><br />
-              "You have to believe in yourself, and I think that's something
-              I've learned over time. No one else can do it for you."
-            </div>
-            <div class="quotes_box">
-              <strong> Britney on Overcoming Adversity</strong><br />
-              "No matter how tough things get, always believe in the strength
-              that lies within you. It’s there, and it’s powerful."
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="fan_stories">
-        <div class="fan_stories_section">
-          <h3>Fans' Voices</h3>
-          <p>
-            Britney’s influence extends far beyond her music. Here are some
-            heartfelt stories from fans around the world who have been touched
-            by her strength and determination.
-          </p>
-          <div class="thre_fan_stories">
+          <div class="hero_section">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/019/original/Britney_Spears_smiling_on_stage.jpg?1720348753"
+              alt="Britney Spears smiling on stage"
+            />
             <p>
-              "Britney's music helped me through some of the toughest times in
-              my life. Her songs gave me the strength to keep going when I felt
-              like giving up."
-            </p>
-            <p>
-              "Watching Britney fight for her freedom was incredibly inspiring.
-              It showed me that it's never too late to stand up for yourself and
-              demand the respect you deserve."
-            </p>
-            <p>
-              "Britney's openness about her mental health struggles gave me the
-              courage to seek help for my own issues. She's a true role model."
+              Britney Spears, the Princess of Pop, is more than just a music
+              icon. She embodies resilience, strength, and inspiration. Her
+              journey through the highs and lows of fame, personal struggles,
+              and triumphant comebacks makes her a beacon of hope and
+              empowerment for millions around the world.
             </p>
           </div>
-        </div>
-        <div class="call_to_action_section">
-          <p>
-            Join me in celebrating the extraordinary life and career of Britney
-            Spears. Share your own stories of how Britney has inspired you, and
-            let's spread her message of hope and empowerment.
-          </p>
-          <button>Share Your Story</button>
-        </div>
-      </section>
-      <section id="contact">
-        <div class="contact">
-          <span class="contact_element">
-            <img src="" alt="twitter logo" />
-            <a href="#">Twitter</a>
-          </span>
-          <span>
-            <img src="" alt="instagram logo" />
-            <a href="#">Instagram</a>
-          </span>
-          <span>
-            <img src="" alt="facebook logo" />
-            <a href="#">Facebook</a>
-          </span>
-        </div>
-      </section>
-    </main>
-    <footer class="personal_footer">
-      <p>
-        This page was coded by
-        <a href="https://github.com/MurielCristina" target="_blank">🪷 Muri 🪷</a
-        >, is open sourced on
-        <a
-          href="https://github.com/MurielCristina/Inspiring-Female-Role-Model"
-          target="_blank"
-          >GitHub</a
-        >
-        and website hosted on
-        <a href="#" target="_blank">Netlify</a>
-      </p>
-    </footer>
+        </section>
+        <section id="about_britney" class="about_britney">
+          <div class="inspirational_journey_section">
+            <video controls src="#"></video>
+            <h3>Britney's Unforgettable Journey</h3>
+            <p>
+              Britney Spears burst onto the music scene in the late 90s,
+              captivating the world with her incredible talent and charismatic
+              presence. Her debut album, "…Baby One More Time," became a
+              cultural phenomenon, solidifying her status as a global superstar.
+              Despite facing intense media scrutiny and personal challenges,
+              Britney's spirit never wavered. She fought tirelessly for her
+              freedom and mental health, becoming a powerful advocate for others
+              facing similar struggles. Today, Britney stands as a symbol of
+              perseverance and self-empowerment.
+            </p>
+          </div>
+          <div class="timeline_section">
+            <h3>Milestones in Britney’s Life</h3>
+            <h4>Timeline Items:</h4>
+            <ul>
+              <li>
+                <strong>1998 </strong>Released debut single "...Baby One More
+                Time."
+              </li>
+              <li><strong>1999 </strong>Debut album tops charts worldwide.</li>
+              <li>
+                <strong>2001 </strong>Releases hit album "Britney" and performs
+                iconic VMA performance with a python.
+              </li>
+              <li><strong>2008 </strong>Wins Grammy for "Piece of Me."</li>
+              <li>
+                <strong>2013 </strong>Launches successful Las Vegas residency.
+              </li>
+              <li>
+                <strong>2021 </strong>Wins legal battle for conservatorship.
+              </li>
+            </ul>
+            <div class="milestones_gallery">
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/035/original/1998_Released_debut_single_%22...Baby_One_More_Time.%22_.jpg?1720353379"
+                alt="Baby One More Time"
+                class="milestones_gallery_pic"
+              />
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/036/original/1999_Debut_album_tops_charts_worldwide._.jpeg?1720353488"
+                alt="Debut album tops charts worldwide"
+                class="milestones_gallery_pic"
+              />
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/037/original/VMA_performance_with_a_python._.jpeg?1720353618"
+                alt="VMA performance with a python."
+                class="milestones_gallery_pic"
+              />
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/038/original/2008_Wins_Grammy_for_%22Piece_of_Me.%22.jpeg?1720353870"
+                alt="Piece of Me"
+                class="milestones_gallery_pic"
+              />
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/041/original/2013_Launches_successful_Las_Vegas_residency._.jpeg?1720354180"
+                alt=" Las Vegas residency"
+                class="milestones_gallery_pic"
+              />
+              <img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/132/040/original/2021_Wins_legal_battle_for_conservatorship._.jpeg?1720354054"
+                alt="conservatorship"
+                class="milestones_gallery_pic"
+              />
+            </div>
+          </div>
+        </section>
+        <section id="achivements" class="achivements">
+          <div class="achivements_section">
+            <h3>Celebrating Achievements</h3>
+            <h4>Achievements List:</h4>
+            <ul>
+              <li>
+                Grammy Award-Winner: Britney has won numerous awards, including
+                a Grammy for Best Dance Recording.
+              </li>
+              <li>
+                Record-Breaking Albums: Over 100 million records sold worldwide,
+                making her one of the best-selling music artists of all time.
+              </li>
+              <li>
+                Iconic Performances: From the MTV Video Music Awards to her Las
+                Vegas residency, Britney's performances have left an indelible
+                mark on pop culture.
+              </li>
+              <li>
+                Advocate for Mental Health: Britney's openness about her mental
+                health journey has inspired countless others to seek help and
+                speak out.
+              </li>
+            </ul>
+          </div>
+          <div class="personal_impact_section">
+            <h3>Why Britney Inspires Me</h3>
+            <p>
+              Britney Spears has always been a source of inspiration for me. Her
+              music has provided the soundtrack to many of my life’s moments,
+              and her story of resilience resonates deeply with me. Despite
+              facing unimaginable pressures and setbacks, Britney's unwavering
+              determination to reclaim her life and happiness teaches us all the
+              importance of self-love, strength, and perseverance. Her ability
+              to rise above adversity and continue to shine brightly is a
+              testament to her incredible spirit.
+            </p>
+          </div>
+          <div class="quotes_section">
+            <h3>Words That Inspire</h3>
+            <h4>Quotes</h4>
+            <div class="quotes">
+              <div class="quotes_box">
+                <strong>Britney on Perseverance</strong><br />
+                "I've been through a lot and I recognize that my challenges are
+                just as important as my successes. They make me who I am."
+              </div>
+              <div class="quotes_box">
+                <strong> Britney on Self-Love</strong><br />
+                "You have to believe in yourself, and I think that's something
+                I've learned over time. No one else can do it for you."
+              </div>
+              <div class="quotes_box">
+                <strong> Britney on Overcoming Adversity</strong><br />
+                "No matter how tough things get, always believe in the strength
+                that lies within you. It’s there, and it’s powerful."
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="fan_stories">
+          <div class="fan_stories_section">
+            <h3>Fans' Voices</h3>
+            <p>
+              Britney’s influence extends far beyond her music. Here are some
+              heartfelt stories from fans around the world who have been touched
+              by her strength and determination.
+            </p>
+            <div class="thre_fan_stories">
+              <p>
+                "Britney's music helped me through some of the toughest times in
+                my life. Her songs gave me the strength to keep going when I
+                felt like giving up."
+              </p>
+              <p>
+                "Watching Britney fight for her freedom was incredibly
+                inspiring. It showed me that it's never too late to stand up for
+                yourself and demand the respect you deserve."
+              </p>
+              <p>
+                "Britney's openness about her mental health struggles gave me
+                the courage to seek help for my own issues. She's a true role
+                model."
+              </p>
+            </div>
+          </div>
+          <div class="call_to_action_section">
+            <p>
+              Join me in celebrating the extraordinary life and career of
+              Britney Spears. Share your own stories of how Britney has inspired
+              you, and let's spread her message of hope and empowerment.
+            </p>
+            <button>Share Your Story</button>
+          </div>
+        </section>
+        <section id="contact">
+          <div class="contact">
+            <span class="contact_element">
+              <img src="" alt="twitter logo" />
+              <a href="#">Twitter</a>
+            </span>
+            <span>
+              <img src="" alt="instagram logo" />
+              <a href="#">Instagram</a>
+            </span>
+            <span>
+              <img src="" alt="facebook logo" />
+              <a href="#">Facebook</a>
+            </span>
+          </div>
+        </section>
+      </main>
+      <hr />
+      <footer class="personal_footer">
+        <p>
+          This page was coded by
+          <a href="https://github.com/MurielCristina" target="_blank"
+            >🪷 Muri 🪷</a
+          >, is open sourced on
+          <a
+            href="https://github.com/MurielCristina/Inspiring-Female-Role-Model"
+            target="_blank"
+            >GitHub</a
+          >
+          and website hosted on
+          <a href="#" target="_blank">Netlify</a>
+        </p>
+      </footer>
+    </div>
     <script></script>
   </body>
 </html>
