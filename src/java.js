@@ -1,5 +1,8 @@
-function playMusic() {}
-//https://drive.google.com/file/d/10AWYWzoTUrkYLKso5jle4LnY11vmdv8j/view?usp=drive_link
+function playMusic() {
+  //https://drive.google.com/file/d/10AWYWzoTUrkYLKso5jle4LnY11vmdv8j/view?usp=drive_link
+  let musicPlayer = document.getElementById("musicPlayer");
+  musicPlayer.play();
+}
 
 function backgroudMusic() {
   let musicConsent = prompt(
