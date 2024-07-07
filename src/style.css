@@ -1,5 +1,5 @@
 .container {
-  width: 75%;
+  width: 70%;
   display: block;
   margin: 0 auto;
   padding: 5px;
@@ -29,15 +29,15 @@ a {
   font-family: "Open Sans", sans-serif;
   color: #800080; /* Deep Purple */
 }
-header {
-  background-color: #800080;
+.navigation_bar {
+  position: fixed;
+  font-size: 14px;
   display: flex;
-  height: 60px;
-  font-size: 18px;
-  padding: 15px 30px;
-  margin: 0;
+  background-color: #800080;
+  max-width: 10%;
 }
 .navigation_bar_item {
+  padding: 10px;
   color: white;
   text-decoration: none;
 }
