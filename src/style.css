@@ -323,3 +323,12 @@ video {
   margin: 0 auto;
   border: 2px solid #f08080;
 }
+/* personal footer Section */
+
+.personal_footer {
+  color: #808080;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 13px;
+}
