@@ -310,6 +310,12 @@ video {
   margin: 0 auto;
   border: 2px solid #f08080;
 }
+.music {
+  color: white;
+}
+.music:hover {
+  color: #f08080;
+}
 /* contact Section */
 
 .contact {
