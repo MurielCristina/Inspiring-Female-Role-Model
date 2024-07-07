@@ -291,20 +291,7 @@ video {
     transform: scale(1);
   }
 }
-/* contact Section */
-
-.contact {
-  padding: 20px;
-  margin: 0 auto;
-}
-.contact a {
-  font-size: 18px;
-  margin: 0 15px;
-  display: flex;
-}
-.personal_footer {
-  text-align: center;
-}
+/* media elements */
 img {
   width: 100%;
   max-width: 600px;
@@ -323,6 +310,18 @@ video {
   margin: 0 auto;
   border: 2px solid #f08080;
 }
+/* contact Section */
+
+.contact {
+  padding: 20px;
+  margin: 0 auto;
+}
+.contact a {
+  font-size: 18px;
+  margin: 0 15px;
+  display: flex;
+}
+
 /* personal footer Section */
 
 .personal_footer {
@@ -331,4 +330,8 @@ video {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 13px;
+}
+.personal_footer a {
+  color: #f08080;
+  text-decoration: none;
 }
