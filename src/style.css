@@ -133,6 +133,13 @@ video {
 .achivements .links {
   color: #ffc0cb;
 }
+.two_columns {
+  display: flex;
+}
+.two_columns_item_gif img {
+  display: block;
+  margin-top: 30px;
+}
 .personal_impact_section {
   background-color: #e6e6fa;
   color: #800080;
@@ -149,6 +156,19 @@ video {
 }
 .personal_impact_section img {
   max-width: 50%;
+}
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 5px 40px;
+}
+.quotes_box {
+  border-radius: 12px;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #bd6464c6;
 }
 .fan_stories_section {
   font-size: 18px;
@@ -215,17 +235,4 @@ video {
   display: block;
   margin: 0 auto;
   border: 2px solid #f08080;
-}
-.quotes {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-  margin: 5px 40px;
-}
-.quotes_box {
-  border: 2px solid white;
-  border-radius: 12px;
-  text-align: center;
-  padding: 5px;
-  font-size: 16px;
 }
