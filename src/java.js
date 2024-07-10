@@ -31,5 +31,12 @@ function thanksForSharing(event) {
 let shareButton = document.querySelector(".share-button");
 shareButton.addEventListener("click", thanksForSharing);
 
+function thanksForVoting(event) {
+  event.preventDefault();
+  event.target.innerHTML = "Thanks for Voting!";
+}
+
 let voteHereButton = document.querySelector(".vote-here");
+shareButton.addEventListener("click", thanksForVoting);
+
 backgroudMusic();
