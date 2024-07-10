@@ -113,9 +113,44 @@ ul.no_bullets {
 .milestones_gallery_pic:hover {
   transform: scale(2.5);
 }
-video {
-  border: #f08080;
-  width: 100%;
+form {
+  background-color: #e6e6fa;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: "Lora", serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form.pool label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+form.pool a {
+  color: #800080;
+  text-decoration: none;
+  font-size: 16px;
+}
+form.pool a:hover {
+  text-decoration: underline;
+}
+form.pool button {
+  background-color: #800080;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+form.pool button:hover {
+  background-color: #9932cc; /* Orquídea oscura */
+  transform: scale(1.05);
 }
 .links {
   text-decoration: none;
