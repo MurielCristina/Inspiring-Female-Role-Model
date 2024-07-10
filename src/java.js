@@ -28,15 +28,15 @@ function thanksForSharing(event) {
   event.target.innerHTML = "Thanks for sharing!";
 }
 
-let shareButton = document.querySelector(".share-button");
-shareButton.addEventListener("click", thanksForSharing);
-
 function thanksForVoting(event) {
   event.preventDefault();
   event.target.innerHTML = "Thanks for Voting!";
 }
 
+let shareButton = document.querySelector(".share-button");
+shareButton.addEventListener("click", thanksForSharing);
+
 let voteHereButton = document.querySelector(".vote-here");
-shareButton.addEventListener("click", thanksForVoting);
+voteHereButton.addEventListener("click", thanksForVoting);
 
 backgroudMusic();
