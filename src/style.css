@@ -47,17 +47,7 @@ a {
 .navigation_bar_item:hover {
   color: #f08080;
 }
-.navigation_bar_musical {
-  position: fixed;
-  top: 220px;
-  font-size: 14px;
-  display: flex;
-  background-color: #800080;
-  max-width: 10%;
-  margin-top: 30px;
-  margin-left: 3%;
-  padding: 30px 15px;
-}
+
 .home h1 {
   font-size: 36px;
   color: #800080;

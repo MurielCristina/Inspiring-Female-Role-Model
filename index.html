@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <audio id="musicPlayer" autoplay loop>
+      <source
+        src="https://drive.google.com/uc?export=download&id=10AWYWzoTUrkYLKso5jle4LnY11vmdv8j"
+        type="audio/mpeg"
+      />
+      Tu navegador no soporta la reproducción de audio.
+    </audio>
     <section class="navigation_bar">
       <div>
         <a href="#home" class="navigation_bar_item">
@@ -34,22 +41,7 @@
         ><br />
       </div>
     </section>
-    <section class="navigation_bar_musical">
-      <div>
-        <span class="material-symbols-outlined music play"> music_note </span>
-        <audio
-          id="musicPlayer"
-          src="https://drive.google.com/file/d/10AWYWzoTUrkYLKso5jle4LnY11vmdv8j/view?usp=drive_link"
-        ></audio>
-        <br />
-        <hr />
-        <span class="material-symbols-outlined music pause">
-          pause_circle
-        </span>
-        <br />
-        <span class="material-symbols-outlined music stop"> stop_circle </span>
-      </div>
-    </section>
+
     <div class="container">
       <main>
         <section id="home" class="home">

@@ -6,13 +6,13 @@ function playMusic() {
 
 function backgroudMusic() {
   let musicConsent = prompt(
-    "Do you what to enter in a full Britney`s mode? (yes/no)"
+    "Do you what to enter in a full Britney mode? (yes/no)"
   )
     .toLowerCase()
     .trim();
   if (musicConsent === "yes") {
     playMusic();
-  }
+  } else alert("You cant change your mind at any time 😉!");
 }
 function shareYourStory() {
   let name = prompt(`What is your name?`).toLowerCase().trim();
