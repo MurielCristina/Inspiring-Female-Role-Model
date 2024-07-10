@@ -1,19 +1,3 @@
-function playMusic() {
-  //https://drive.google.com/file/d/10AWYWzoTUrkYLKso5jle4LnY11vmdv8j/view?usp=drive_link
-  let musicPlayer = document.getElementById("musicPlayer");
-  musicPlayer.play();
-}
-
-function backgroudMusic() {
-  let musicConsent = prompt(
-    "Do you what to enter in a full Britney mode? (yes/no)"
-  )
-    .toLowerCase()
-    .trim();
-  if (musicConsent === "yes") {
-    playMusic();
-  } else alert("You cant change your mind at any time 😉!");
-}
 function shareYourStory() {
   let name = prompt(`What is your name?`).toLowerCase().trim();
   let capitalizeName = name.charAt(0).toUpperCase() + name.slice(1);
@@ -38,5 +22,3 @@ shareButton.addEventListener("click", thanksForSharing);
 
 let voteHereButton = document.querySelector(".vote-here");
 voteHereButton.addEventListener("click", thanksForVoting);
-
-backgroudMusic();
