@@ -1,0 +1,108 @@
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .navigation_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    height: auto;
+  }
+
+  .navigation_bar_item {
+    padding: 5px 0;
+    font-size: 16px;
+  }
+
+  .home h1 {
+    font-size: 28px;
+  }
+
+  .home h2 {
+    font-size: 20px;
+  }
+
+  .milestones_gallery {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5px 20px;
+  }
+  .personal_impact_section {
+    padding: 25px;
+    margin: 0 auto;
+    font-size: 16px;
+  }
+  .quotes {
+    grid-template-columns: 1fr;
+  }
+
+  .two_columns {
+    display: block;
+  }
+  .call_to_action_section {
+    padding: 0px;
+  }
+}
+
+/* Ajustes adicionales para pantallas aún más pequeñas */
+@media (max-width: 480px) {
+  .navigation_bar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .home h1 {
+    font-size: 24px;
+  }
+
+  .home h2 {
+    font-size: 18px;
+  }
+
+  .milestones_gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .quotes {
+    grid-template-columns: 1fr;
+  }
+
+  .comment-card {
+    max-width: 100%;
+  }
+
+  .two_columns {
+    flex-direction: column;
+  }
+  .celebrate-message {
+    font-size: 9px;
+  }
+  .celebrate-britney {
+    padding: 0;
+  }
+}
+
+/* Ajustes para tablets y pantallas medianas */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .milestones_gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quotes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Ajustes para pantallas grandes */
+@media (min-width: 1024px) {
+  .milestones_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .quotes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

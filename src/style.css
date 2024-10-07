@@ -1,3 +1,9 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 .container {
   width: 70%;
   display: block;
@@ -31,18 +37,23 @@ a {
 }
 .navigation_bar {
   position: fixed;
-  font-size: 14px;
-  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
   background-color: #800080;
-  max-width: 10%;
-  margin-top: 30px;
-  margin-left: 3%;
-  padding: 30px 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
 }
 .navigation_bar_item {
   color: white;
   text-decoration: none;
-  text-align: center;
+  font-size: 18px;
+}
+.navigation_bar_item span {
+  vertical-align: middle;
 }
 .navigation_bar_item:hover {
   color: #f08080;
