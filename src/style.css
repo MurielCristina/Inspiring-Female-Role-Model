@@ -79,10 +79,11 @@ a {
 .home {
   padding: 50px;
   margin: 0 auto;
-  background-color: #e6e6fa;
+  background: linear-gradient(#e6e6fa, #ffc0cb);
 }
 .about_britney {
-  background-color: #ffc0cb;
+  background: linear-gradient(#ffc0cb, #f08080);
+
   padding: 50px;
   margin: 0 auto;
 }
@@ -220,7 +221,7 @@ form.pool button:hover {
 /* Fans' Voices Section */
 #fan_stories {
   padding: 50px;
-  background-color: #e6e6fa;
+  background: linear-gradient(#f08080, #e6e6fa);
   text-align: center;
 }
 #fan_stories h3 {
